@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- Tempatkan semua elemen tampilan Anda di dalam ScrollView -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi Data Mining adalah aplikasi android yang berguna untuk klasifikasi objek dengan mengkombinasikan beberapa metode seperti Neural Networks, Regresi, dan Backward Chaining. \n \n \n Aplikasi ini dibuat untuk memenuhi tugas pembuatan sistem klasifikasi berbasis Image Processing dengan judul 'Penerapan Neural Networks, Regressi dan Gradient Boosting untuk Mengidentifikasi Objek'.\n \n \n Objek yang bisa diidentifikasi adalah sebagai berikut: \n 1. Jenis Bunga \n 2. Jenis Hewan Laut\n 3.Jenis Kupu-Kupu\n 4. Jenis Buah\n 5. Jenis Makanan\n 6. Jenis Treenut\n 7. Jenis Gemstone\n 8. Kematangan Pepaya\n 9. Jenis Apel \n\n\n Silahkan pilih salah satu dataset di bawah untuk menguji sistem."/>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/jenis_pilihan"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:id="@+id/button_classify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Klasifikasi >>"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

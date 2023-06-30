@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Klasifikasi Objek</string>
+    <string-array name="jenis_pilihan">
+        <item>1. Jenis Bunga</item>
+        <item>2. Jenis Hewan Laut</item>
+        <item>3. Jenis Kupu-Kupu</item>
+        <item>4. Jenis Buah</item>
+        <item>5. Jenis Makanan</item>
+        <item>6. Jenis Tree Nut</item>
+        <item>7. Jenis Gemstone</item>
+        <item>8. Kematangan Pepaya</item>
+        <item>9. Jenis Apel</item>
+        <item>10. Apple or Not</item>
+    </string-array>
+
+</resources>
